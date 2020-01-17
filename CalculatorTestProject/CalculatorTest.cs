@@ -7,12 +7,12 @@ namespace CalculatorTestProject
     public class CalculatorTest
     {
         [TestMethod]
-        public  void Add_Two_Will_PassTest()
+        public  void Adding_Two_Values_Will_PassTest()
         {
 
             //arrange
             double a = 5.9;
-            double b = 3.9;
+            double b = 4.9;
 
             //act
             Calculator.Add(a, b);
